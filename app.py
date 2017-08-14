@@ -1,5 +1,6 @@
 from flask import Flask
 import models
+import os
 from resources.users import users_api
 
 
@@ -13,4 +14,7 @@ def index():
 
 if __name__ == '__main__':
     models.initialize()
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.debug = True
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
