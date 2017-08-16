@@ -4,3 +4,5 @@ resources/__pycache__/users.cpython-36.pyc
 models.pyc
 resources/__init__.pyc
 resources/users.pyc
+__pycache__
+.vscode

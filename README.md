@@ -2,7 +2,7 @@ Please Note That this file is incomplete and is currently being updated. This pr
 
 # What is Open Flask API ?
 
-Open flask api is a simple API web-app based on ReST API Architecture and programmed in Python-3 using flask microframework. It is created for begginers to understand the basics of creating a ReST API in Python.It can also be used as a template to create your new APIs
+Open flask api is a simple API web-app based on ReST API Architecture and programmed in Python-3 using flask microframework. It is created for begginers to understand the basics of creating a ReST API in Python.It can also be used as a template to create your new APIs.
 ## Please note that this web-app is designed to be deployed on the HEROKU Platform.
 
 The URI of this API is [https://openflaskapi.heroku.com](https://openflaskapi.heroku.com).
