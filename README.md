@@ -1,4 +1,4 @@
-##Please Note That this file is incomplete and is currently being updated. This project is also not complete and currently under development.
+Please Note That this file is incomplete and is currently being updated. This project is also not complete and currently under development.
 
 # What is Open Flask API ?
 
@@ -20,9 +20,9 @@ This URI is used via GET method to get a JSON list of users from the database.
 https://www.openflaskapi.herokuapp.com/api/v1/users
 This URI is used via POST method to send a JSON containing all the information needed for adding a new user in the database. The needed data and format is : 
 {
-    'name': 'User Name'
-    'email': 'user@email.com'
-    'password': 'password'
+    'name': 'User Name',
+    'email': 'user@email.com',
+    'password': 'password',
     'tag': 'This Field is not required'
 }
 
