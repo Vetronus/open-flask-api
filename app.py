@@ -10,7 +10,7 @@ app.register_blueprint(users_api, url_prefix = '/api/v1')
 
 @app.route('/')
 def index():
-    return("This Web App is Under Development, Please Visit <a href= 'http://github.com/vetronus/simple-flask-user-api'>http://github.com/vetronus/simple-flask-user-api</a>")
+    return("<h1>This Web App is home to Open Flask API to test and learn more about API</h1>.<br> To learn more please visit <a href= 'http://github.com/vetronus/simple-flask-user-api'>http://github.com/vetronus/simple-flask-user-api</a>")
 
 if __name__ == '__main__':
     models.initialize()
