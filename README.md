@@ -9,7 +9,7 @@ In this API, we store store data of various users. we can:
 - get a specific user's data using his unique email.
 - update the tag of user using PUT and his specific email.
 
-##### Please note that this web-app is designed to be deployed on the HEROKU Platform. The URL to the dyno of this API is http://openflaskapi.heroku.com.
+##### Please note that this web-app is designed to be deployed on the HEROKU Platform. The URL to the dyno of this API is http://openflaskapi.herokuapp.com.
 
 # Language, Framework and Plugins used :
 - ### Python 3.6.2
@@ -24,13 +24,13 @@ In this API, we store store data of various users. we can:
 [Postman](https://www.getpostman.com/).
 `Also, if you don't know how to use Postman to send various types of request than watch some tuts online.`
 
-#### Complete URI of API is http://www.openflaskapi.herokuapp.com/api/v1/users
+#### Complete URI of API is http://openflaskapi.herokuapp.com/api/v1/users
 
 ## Structure of our URI :
-- ### `http://www.openflaskapi.herokuapp.com/api/v1/users`
+- ### `http://openflaskapi.herokuapp.com/api/v1/users` | GET
 This URI is used via GET method to get a JSON list of users from the database. Paste this URI in Postman and you will get a list of Users in form of JSON.
 
-- ### `http://www.openflaskapi.herokuapp.com/api/v1/users`
+- ### `http://openflaskapi.herokuapp.com/api/v1/users` | POST
 This URI is used via POST method to send a JSON containing all the information needed for adding a new user in the database. The needed data and format is :
 ```
 {
@@ -42,10 +42,10 @@ This URI is used via POST method to send a JSON containing all the information n
 ```
 Paste the URI and JSON in the Postman and POST it, The user will be saved in the database. Please note that two users with same email are not compatible, and an error will be thrown.
 
-- ### `http://www.openflaskapi.herokuapp.com/api/v1/users/[email]`
+- ### `http://openflaskapi.herokuapp.com/api/v1/users/[email]` | GET
 The email in the URI is replaced with the email of the user. This URI is used via GET method to get a JSON containing user's info from the database.
 
-- ### `http://www.openflaskapi.herokuapp.com/api/v1/users/[email]`
+- ### `http://openflaskapi.herokuapp.com/api/v1/users/[email]` | PUT
 The email in the URI is replaced with the email of the user. This URI is used via PUT method to change the tag of a user. We need to send a JSON with the tag and its value.
 ```
 {
@@ -53,7 +53,7 @@ The email in the URI is replaced with the email of the user. This URI is used vi
 }
 ```
 
-- ### `http://www.openflaskapi.herokuapp.com/api/v1/users/[email]`
+- ### `http://openflaskapi.herokuapp.com/api/v1/users/[email]` | DELETE
 The email in the URI is replaced with the email of the user. This URI is used via DELETE method to delete user's info from the database.
 
 ## License and Usage :
